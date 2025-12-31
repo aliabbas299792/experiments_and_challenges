@@ -1,5 +1,5 @@
 CXX := clang++
-CXXFLAGS := -std=c++20 -O2 -Wall -Wextra
+CXXFLAGS := -std=c++20 -O2 -Wall -Wextra -Icommon
 COMMON_SRCS := $(wildcard common/*.cpp)
 COMMON_OBJS := $(COMMON_SRCS:.cpp=.o)
 

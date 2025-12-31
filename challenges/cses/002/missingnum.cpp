@@ -1,13 +1,9 @@
-#include <iostream>
-#include <numeric>
-#include <sstream>
+#include "common.h"
+
 #include <vector>
 
 int main() {
-  int n{};
-  std::cin >> n;
-  std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
+  auto n = readLineT<int>();
   std::vector<int> nums(n, -1);
 
   std::string line{};

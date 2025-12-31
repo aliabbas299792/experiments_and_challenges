@@ -3,3 +3,4 @@
 **/.cache
 tmp/
 *.bin
+compile_commands.json
